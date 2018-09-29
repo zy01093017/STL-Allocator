@@ -1,0 +1,24 @@
+﻿生成启动时间为 2018/9/4 15:59:57。
+     1>项目“F:\资料\C++\空间配置器\空间配置器\空间配置器.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         G:\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Test.cpp
+         Test.cpp
+     1>f:\资料\c++\空间配置器\空间配置器\STLConstruct.h(40): error C2065: “TypeTriats”: 未声明的标识符
+                 f:\资料\c++\空间配置器\空间配置器\MyVector.h(78): 参见对正在编译的函数 模板 实例化“void Destory<int*>(Iterator,Iterator)”的引用
+                 with
+                 [
+                     Iterator=int *
+                 ]
+                 f:\资料\c++\空间配置器\空间配置器\MyVector.h(77): 编译类 模板 成员函数“void MyVector<int,alloc>::clear(void)”时
+                 f:\资料\c++\空间配置器\空间配置器\MyVector.h(38): 参见对正在编译的函数 模板 实例化“void MyVector<int,alloc>::clear(void)”的引用
+                 f:\资料\c++\空间配置器\空间配置器\MyVector.h(191): 参见对正在编译的类 模板 实例化“MyVector<int,alloc>”的引用
+     1>f:\资料\c++\空间配置器\空间配置器\STLConstruct.h(40): error C2065: “IteratorTraits”: 未声明的标识符
+     1>f:\资料\c++\空间配置器\空间配置器\STLConstruct.h(40): error C2039: “ValueType”: 不是“`global namespace'”的成员
+     1>f:\资料\c++\空间配置器\空间配置器\STLConstruct.h(40): error C2065: “ValueType”: 未声明的标识符
+     1>f:\资料\c++\空间配置器\空间配置器\STLConstruct.h(40): error C2039: “hasTrivialDestructor”: 不是“`global namespace'”的成员
+     1>f:\资料\c++\空间配置器\空间配置器\STLConstruct.h(40): error C3861: “hasTrivialDestructor”:  找不到标识符
+     1>已完成生成项目“F:\资料\C++\空间配置器\空间配置器\空间配置器.vcxproj”(Build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:00.56
